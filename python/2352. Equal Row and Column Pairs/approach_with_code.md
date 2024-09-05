@@ -1,3 +1,5 @@
+[Simple and Efficient Row-Column Matching Solution on LeetCode](https://leetcode.com/problems/equal-row-and-column-pairs/solutions/5742994/simple-and-efficient-row-column-matching-solution-beats-91-in-speed/)
+
 # Intuition
 The problem asks to find how many pairs of rows and columns in a square matrix are identical. My first thought was that I can represent both rows and columns as arrays and compare them. By using a `Counter`, we can efficiently count how many times each row appears. Then, by forming each column as a tuple and checking if it exists in the `Counter`, we can find matching pairs.
 
@@ -7,8 +9,8 @@ The problem asks to find how many pairs of rows and columns in a square matrix a
 3. For every matching row-column pair, increment the result count.
 
 # Complexity
-- Time complexity: O(n^2), where n is the size of the matrix. This is because we iterate over all rows and columns, and generating the tuples takes linear time for each row or column.
-- Space complexity: O(n^2), since we store all rows and columns as tuples in the `Counter`.
+- Time complexity: $$O(n^2)$$, where n is the size of the matrix. This is because we iterate over all rows and columns, and generating the tuples takes linear time for each row or column.
+- Space complexity: $$O(n^2)$$, since we store all rows and columns as tuples in the `Counter`.
 
 # Example Walkthrough
 For the first example:
