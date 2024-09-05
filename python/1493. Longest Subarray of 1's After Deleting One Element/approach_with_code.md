@@ -1,3 +1,5 @@
+[Sliding Window Approach to Maximize Contiguous 1's After Removing One Element on LeetCode](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/solutions/5743089/sliding-window-approach-on-time-o1-space-complexity/)
+
 # Intuition
 To solve the problem of finding the longest subarray containing only 1's after deleting exactly one element, I first considered the idea of using a sliding window approach. The goal is to find the longest contiguous subarray of 1's that can be achieved by allowing at most one zero in the subarray.
 
